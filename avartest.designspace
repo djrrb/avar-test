@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='utf-8'?>
+<designspace format="3">
+    <axes>
+        <axis default="1.0" maximum="1000.0" minimum="1.0" name="Weight" tag="wght">
+            <map input="1.0" output="1.0" />
+            <map input="250.0" output="750.0" />
+            <map input="1000.0" output="1000.0" />
+        </axis>
+        <axis default="750" maximum="750" minimum="1" name="Height" tag="HGHT" />
+
+    </axes>
+    <sources>
+
+        <source familyname="avartest" filename="avartest-default.ufo" name="master.avartest.Regular.0" stylename="Regular">
+            <groups copy="1" />
+            <features copy="1" />
+            <info copy="1" />
+            <location>
+                <dimension name="Weight" xvalue="1" />
+            </location>
+        </source>
+
+        <source familyname="avartest" filename="avartest-wght1000.ufo" name="master.avartest.Black.3" stylename="Black">
+            <location>
+                <dimension name="Weight" xvalue="1000" />
+            </location>
+        </source>
+        
+        <source familyname="avartest" filename="avartest-HGHT1.ufo" name="master.avartest.2323" stylename="Hght">
+            <location>
+                <dimension name="Height" xvalue="1" />
+            </location>
+        </source>
+    </sources>
+    <instances>
+        <instance familyname="avartest" filename="2-build/avartest-Light.ufo" name="instance_Light" stylemapstylename="regular" stylename="Light">
+            <location>
+                <dimension name="Weight" xvalue="300" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="avartest" filename="2-build/avartest-Regular.ufo" name="instance_Regular" stylemapstylename="regular" stylename="Regular">
+            <location>
+                <dimension name="Weight" xvalue="400" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="avartest" filename="2-build/avartest-Medium.ufo" name="instance_Medium" stylemapstylename="regular" stylename="Medium">
+            <location>
+                <dimension name="Weight" xvalue="500" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="avartest" filename="2-build/avartest-Bold.ufo" name="instance_Bold" stylemapstylename="bold" stylename="Bold">
+            <location>
+                <dimension name="Weight" xvalue="700" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+        <instance familyname="avartest" filename="2-build/avartest-Black.ufo" name="instance_Black" stylemapstylename="regular" stylename="Black">
+            <location>
+                <dimension name="Weight" xvalue="800" />
+            </location>
+            <kerning />
+            <info />
+        </instance>
+
+    </instances>
+</designspace>
